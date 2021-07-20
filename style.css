@@ -1,0 +1,46 @@
+* {
+    position: relative;
+    margin: 100px;
+    background-color: #263238;
+}
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.base {
+    position: absolute;
+    filter: blur(60px);
+    opacity: 0.8;
+}
+
+.one {
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    left: -50px;
+    top: -300px;
+    z-index: 3;
+}
+
+.two {
+    width: 500px;
+    height: 800px;
+    background-color: orange;
+    bottom: -30px;
+    left: -80px;
+}
+
+.three {
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+    bottom: -80px;
+    right: -100px;
+    background-color: yellow;
+}
